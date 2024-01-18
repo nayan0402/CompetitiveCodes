@@ -4,7 +4,7 @@
 //modular arithmetic for MOD type questions code below:
 
 
-
+using ll=long long;
 constexpr int P = 1000000007;
 // assume -P <= x < 2P
 int norm(int x) {
