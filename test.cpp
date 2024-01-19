@@ -139,8 +139,9 @@ struct Z {
 //===========================================================
 
 void solve() {
-    Z n, m, ans;
+    int n, m;
     cin>>n>>m;
+    Z ans;
     if(m>n){
         swap(n, m);
     }
