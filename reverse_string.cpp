@@ -117,4 +117,32 @@ namespace Treap {
 //        cout << ")";
     }
 }
+
+ 
+// void solve(){
+//     // first we take the input and insert the string in the tree using the insert function
+//     // to find the x , we simply use a binary search 
+//     // then we reverse the string and in the end we output it
+//     int n, k, i;
+//     cin>>n>>k;
+//     pitem tr = nullptr;
+//     vector <int> l(k), r(k);
+//     string s;
+//     cin>>s;
+//     for(i=0;i<n;i++){
+//         Treap::insert(tr, i, s[i]);// this is the setting of the string
+//     }
+//     int q;
+//     cin>>q;
+//     while(q--){
+//         int L, R;
+//         cin>>L>>R;
+//         // we have to reverse the string from L to R index
+//         // indexing is 0 based, so we subtract 1 from L and R
+//         Treap:: reverse(tr, L-1, R-1);
+//     }
+//     string ans;
+//     Treap:: output(tr, ans);// we are taking the final string as output
+//     cout<<ans<<endl;
+// }
  
